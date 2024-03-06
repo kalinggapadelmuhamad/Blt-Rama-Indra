@@ -1,0 +1,87 @@
+* {
+    /* padding: 0px;
+    margin: 0px; */
+    font-family: Poppins;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #293b5f;
+}
+
+.nav-link {
+    color: #293b5f !important;
+    font-weight: 500;
+}
+
+.beranda {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url('image/bernda.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.beranda h1 {
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+
+.beranda p {
+    font-weight: 300;
+    letter-spacing: -0px;
+}
+
+.informasi {
+    padding: 100px 0px;
+}
+
+.informasi .text-title {
+    color: #293b5f;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.profile {
+    padding: 100px 0px;
+    background: #f3f4f5ce;
+}
+
+.profile .text-title {
+    color: #293b5f;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.kontak {
+    padding: 10px 0px;
+}
+
+.kontak .icon {
+    font-size: 40px;
+}
+
+.lisensi {
+    background: #f3f4f5ce;
+    padding-top: 20px;
+}
+
+.cekblt {
+    min-height: 100vh;
+    padding: 100px 0px;
+}
+
+@media print {
+
+    .no-print,
+    .no-print * {
+        display: none !important;
+    }
+}
